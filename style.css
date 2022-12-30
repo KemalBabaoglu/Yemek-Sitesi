@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F5EBE0;
+}
+
+header {
+    width: 80%;
+
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 300px;
+    height: 200px;
+}
+
+.logo input {
+    height: 40px;
+    width: 250px;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    border-radius: 56px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.container-start img {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 300px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+ul li ul {
+    display: none;
+    position: absolute;
+}
+
+
+
+ul li {
+    width: 148px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    border-radius: 56px;
+}
+
+ul li a {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+ul li ul li {
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+ul li a:hover {
+    color: white;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+main h2 { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    letter-spacing: 16px;
+    color: #fc1c49;
+}
+
+
+
+main .cards {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+main section .card {
+    border: 1px solid;
+    background-color: black;
+    transition: 0.5s;
+}
+
+main section .card:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+main section .card iframe {
+    width: 250px;
+    height: 250px;
+}
+
+main section .definition {
+    width: 250px;
+    text-align: justify;
+    padding: 0px 5px;
+    font-style: italic;
+    font-size: small;
+    border-radius: 56px;
+    border-top: 0;
+    color: white;
+}
+
+
+footer{margin-top: 100px;}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.iconmenu{
+    margin-top: 100px;
+    height: 80px;
+    width: 80%;
+    margin: auto;
+        text-align: center;
+}
+
+.fab{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    width: 60px;
+    margin: 10px 15px;
+}
+
+.fab:hover{
+    opacity: 0.5;
+}
+
+.fa-facebook-f {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;}
+
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+     
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+
+    .icon-thumbnail {
+        border-radius: 15px;}
